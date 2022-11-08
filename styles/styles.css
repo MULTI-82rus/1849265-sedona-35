@@ -211,18 +211,19 @@ body {
 } */
 
 .hotel-search {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   width: 1200px;
   height: 406px;
+  border: 1px solid red;
 }
 
 .hotel-search-wrapper {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  margin: 96px 304px;
   width: 592px;
-  /* height: 214px; */
+  height: 214px;
   border: 1px solid red;
 }
 
@@ -257,7 +258,22 @@ body {
 /* newsletter */
 
 .newsletter {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 415px;
   background-image: url("../images/blurred-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.newsletter-wrapper{
+  display: flex;
+  flex-direction: column;
+  margin: 96px 258px 104px;
+  width: 684px;
+  height: 215px;
+  border: 1px solid red;
 }
 
 .newsletter-title {
@@ -282,6 +298,17 @@ body {
 }
 
 /* footer */
+
+.page-footer-container{
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  border: 1px solid red
+}
+
+.footer-social-list {
+  list-style: none;
+}
 
 .footer-contacts-address-phone {
   font-weight: 700;

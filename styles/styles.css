@@ -303,11 +303,19 @@ body {
   display: flex;
   width: 1200px;
   margin: 0 auto;
-  border: 1px solid red
+  border: 1px solid red;
 }
 
 .footer-social-list {
+  width: 142px;
+  margin-right: 41.5px;
   list-style: none;
+  border: 1px solid red;
+}
+
+.footer-contacts-address {
+  width: 720px;
+  margin-right: 41.5px;
 }
 
 .footer-contacts-address-phone {

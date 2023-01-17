@@ -64,7 +64,8 @@ body {
   width: 1200px;
   /* justify-content: space-between; */
   margin: 0 auto;
-  border: 1px solid rgb(81, 0, 167);
+  /* border: 1px solid rgb(81, 0, 167); */
+  outline: 1px solid rgb(81, 0, 167);
 }
 
 .navigation-list {
@@ -73,7 +74,8 @@ body {
   padding: 0;
   width: 339px;
   list-style: none;
-  border: 1px solid rgb(81, 0, 167);
+  /* border: 1px solid rgb(81, 0, 167); */
+  outline: 1px solid rgb(81, 0, 167);
 }
 
 .navigation-user {
@@ -81,7 +83,8 @@ body {
   padding: 0; */
   margin-left: auto;
   width: 268px;
-  border: 1px solid rgb(81, 0, 167);
+  /* border: 1px solid rgb(81, 0, 167); */
+  outline: 1px solid rgb(81, 0, 167);
 }
 
 .navigation-link {
@@ -157,7 +160,8 @@ body {
 .advantages-item {
   width: 400px;
   height: 384px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  outline: 1px solid red;
 }
 
 .advantages-title {
@@ -193,7 +197,8 @@ body {
 .recommendations-item {
   width: 400px;
   height: 384px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  outline: 1px solid red;
 }
 
 .recommendations-title {
@@ -215,7 +220,8 @@ body {
   flex-direction: column; */
   width: 1200px;
   height: 406px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  outline: 1px solid red;
 }
 
 .hotel-search-wrapper {
@@ -224,7 +230,8 @@ body {
   margin: 96px 304px;
   width: 592px;
   height: 214px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  outline: 1px solid red;
 }
 
 .hotel-search-title {
@@ -273,7 +280,8 @@ body {
   margin: 96px 258px 104px;
   width: 684px;
   height: 215px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  outline: 1px solid red;
 }
 
 .newsletter-title {
@@ -303,14 +311,16 @@ body {
   display: flex;
   width: 1200px;
   margin: 0 auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  outline: 1px solid red;
 }
 
 .footer-social-list {
   width: 142px;
   margin-right: 41.5px;
   list-style: none;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  outline: 1px solid red;
 }
 
 .footer-contacts-address {

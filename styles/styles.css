@@ -20,7 +20,7 @@ html {
 
 body {
   margin: 0 auto;
-  width: 1280px;
+  /* width: 1280px; */
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -47,8 +47,8 @@ body {
 /* header */
 
 .page-header {
-  /* width: 1200px; */
-  /* margin: 0 auto; */
+  width: 1200px;
+  margin: 0 auto;
   color: #000000;
   background: #FFFFFF;
   /* border: 1px solid rgb(85, 148, 230); */
@@ -72,7 +72,8 @@ body {
   /* display: flex; */
   margin: 0;
   padding: 0;
-  width: 339px;
+  width: 464px; /*спикер советтовал делать контейнер с запасом, вдруг появится дополнительный пункт меню*/
+  /* width: 339px; ширина по макету */
   list-style: none;
   /* border: 1px solid rgb(81, 0, 167); */
   outline: 1px solid rgb(81, 0, 167);
@@ -82,9 +83,15 @@ body {
   /* margin: 0;
   padding: 0; */
   margin-left: auto;
+<<<<<<< Updated upstream
   width: 268px;
   /* border: 1px solid rgb(81, 0, 167); */
   outline: 1px solid rgb(81, 0, 167);
+=======
+  width: 312px; /*спикер советтовал делать контейнер с запасом, вдруг появится дополнительный пункт меню*/
+  /* width: 368px; ширина по макету */
+  border: 1px solid rgb(81, 0, 167);
+>>>>>>> Stashed changes
 }
 
 .navigation-link {

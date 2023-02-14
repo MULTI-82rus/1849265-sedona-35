@@ -171,6 +171,14 @@ body {
   outline: 1px solid red;
 }
 
+.advantages-item-image {
+  outline: 1px solid red;
+}
+
+.advantages-image {
+  vertical-align: middle;  /* Убрает пустое пространство под изображением */
+}
+
 .advantages-title {
   font-weight: 700;
   font-size: 24px;
